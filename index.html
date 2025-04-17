@@ -1,26 +1,27 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Tip Calculator</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="calculator">
-            <h2>Tip calculator</h2>
-            <label for="billAmount">Bill Amount ($):</label>
-            <input type="number" id="billAmount" placeholder="Enter bill amount">
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Tip Calculator</h2>
+        <label for="billAmount">Bill Amount ($):</label>
+        <input type="number" id="billAmount" placeholder="Enter bill amount">
 
-            <label for="tipPercent">Tip Percentage (%):</label>
-            <input type="number" id="tipPercent" placeholder="Enter tip %">
-        
-            <button onclick="calculateTip()">Calculate</button>
-            <div class="results">
-                <p id="tipAmount">Top: $0.00</p>
-                <p id="totalAmount">Total:$0.00</p>
-            </div>
+        <label for="tipPercent">Tip Percentage (%):</label>
+        <input type="number" id="tipPercent" placeholder="Enter tip %">
+    
+        <button onclick="calculateTip()">Calculate</button>
+        <div class="results">
+            <p id="tipAmount">Tip: $0.00</p>
+            <p id="totalAmount">Total: $0.00</p>
         </div>
-        <script src="js/script.js">
-        </body>
-    </html>
+    </div>
 
-        
+    <!-- Properly closed script tag -->
+    <script src="js/script.js"></script>
+</body>
+</html>
